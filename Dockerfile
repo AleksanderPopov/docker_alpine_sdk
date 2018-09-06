@@ -1,2 +1,2 @@
 FROM docker:latest
-RUN "apk add alpine-sdk"
+RUN ["apk", "add", "alpine-sdk"]
